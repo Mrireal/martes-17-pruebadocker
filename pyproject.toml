@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "martes10"
+version = "0.1.0"
+description = "Scripts de cifrado y descifrado"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+py-modules = ["encrypt", "decrypt"]

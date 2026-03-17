@@ -9,5 +9,5 @@ COPY pyproject.toml ./
 COPY *.py ./
 
 # Install project dependencies and the local package
-RUN pip install --no-cache-dir --upgrade pip \
+RUN pip install -y --no-cache-dir --upgrade pip \
     && pip install --no-cache-dir .
